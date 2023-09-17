@@ -1,0 +1,74 @@
+[
+   {
+      "id":1,
+      "image":"https://i.ibb.co/LzyZzX1/c-programming.png",
+      "course_name":"C Programming Language",
+      "course_details":"C is a powerful,efficient,and widely-used programming language known for it low-level memory access & strong hardware interaction.",
+      "price":15000,
+      "credit":1
+   },
+   {
+      "id":2,
+      "image":"https://i.ibb.co/wSCthb7/algorithm.png",
+      "course_name":"Introduction to Algorithms",
+      "course_details":"Algorithms are step-by-step procedures or formulas for solving problem.They power computing,helping find optimal solutions for us.",
+      "price":25000,
+      "credit":2
+   },
+   {
+      "id":3,
+      "image":"https://i.ibb.co/P64gpDr/c-plus-plus.png",
+      "course_name":"C++ Programming Language",
+      "course_details":"C++ is a powerful,popular,versatile programming language.It support high-performance software development for various application.",
+      "price":10000,
+      "credit":10
+   },
+   {
+      "id":4,
+      "image":"https://i.ibb.co/n8kZ0Z0/basic-dsa.png",
+      "course_name":"Basic to Advanced DSA",
+      "course_details":"Basic data structures like array,linked lists,and stacks organize and store data efficiently,crucial for algorithm implementation.",
+      "price":35000,
+      "credit":5
+   },
+   {
+      "id":5,
+      "image":"https://i.ibb.co/xYZNP8b/oop-python.png",
+      "course_name":"Python Mastery Courses",
+      "course_details":"Python is a versatile,high-level programming language for its readability & broad application spectrums,including web development.",
+      "price":19000,
+      "credit":5
+   },
+   {
+      "id":6,
+      "image":"https://i.ibb.co/CBfPL4c/software-engineering.png",
+      "course_name":"R&D Software Engineering",
+      "course_details":"Software engineering and R&D enhances practices, tools, and methodologies for efficient software development and ensuring quality.",
+      "price":23000,
+      "credit":2
+   },
+   {
+      "id":7,
+      "image":"https://i.ibb.co/zNVDz0r/aws.png",
+      "course_name":"Amazon Web Services (AWS)",
+      "course_details":"Amazon Web Services is a leading cloud computing platform,offering a vast array of scalable to businesses and individual globally.",
+      "price":35000,
+      "credit":6
+   },
+   {
+      "id":8,
+      "image":"https://i.ibb.co/B34KVB3/mysql.png",
+      "course_name":"Advanced MySQL DBMS",
+      "course_details":"MySQL is a popular open-source relational database management system. It efficiently organizes and retrieves data for various app.",
+      "price":19000,
+      "credit":3
+   },
+   {
+      "id":9,
+      "image":"https://i.ibb.co/7znKrSc/prob-solving.png",
+      "course_name":"Cybersecurity Essentials ",
+      "course_details":"Cybersecurity safeguards digital systems and data from threats, including hacking, malware,ensuring confidentiality and integrity.",
+      "price":23000,
+      "credit":2
+   }
+]
