@@ -1,3 +1,4 @@
+<!-- ................................................................................... -->
 <p align="center">
  ---
   <b><span style="font-size: 24px ; color: blue"><u>Course Registration Assignment</u></span></b>
@@ -86,4 +87,5 @@
          It is initialized with a value of 0 using useState.  
 
         2.   setTotalPrice is used to update the totalPrice state.
-<!-- ........................... -->
+
+<!-- ................................................................................... -->

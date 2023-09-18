@@ -21,7 +21,6 @@ const Cards = ({ handleAddToCart }) => {
     fetchData();
   }, []);
 
-
   return (
     <div className="w-3/5 lg:w-3/4 grid lg:grid-cols-3 gap-5">
       {data &&

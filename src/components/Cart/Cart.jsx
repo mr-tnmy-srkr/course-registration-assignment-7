@@ -1,6 +1,13 @@
 import PropTypes from "prop-types";
 
-const Cart = ({ allCardsName, creditHrs, totalCreditHrs, totalPrice }) => {
+const Cart = ({
+  mappedData,
+  creditHrs,
+  totalCreditHrs,
+  totalPrice,
+  handleRemove,
+}) => {
+  // console.log(mappedData);
   let count = 0;
   return (
     <div className="w-2/5 lg:w-1/4 h-[95vh] ml-5 overflow-y-auto sticky top-0">
@@ -16,18 +23,21 @@ const Cart = ({ allCardsName, creditHrs, totalCreditHrs, totalPrice }) => {
         <div className="space-y-3">
           <h1 className="text-card-headings font-bold text-xl">Course Name</h1>
           <ol className="text-card_details text-base leading-8 space-y-3">
-            {allCardsName &&
-              allCardsName?.map((heading, idx) => (
+            {mappedData &&
+              mappedData?.map((mapData, idx) => (
                 <li key={idx}>
                   <div className="flex flex-col lg:flex-row items-center justify-between">
                     <div className="flex md:items-center gap-2">
                       <span className="font-semibold text-cart-text-total">
                         {(count += 1)}.
                       </span>
-                      <span>{heading}</span>
+                      <span>{mapData.course_name}</span>
                     </div>
-                    <div className="hidden">
-                      <button className="btn btn-xs btn-error btn-circle text-white">
+                    <div className="">
+                      <button
+                        onClick={() => handleRemove(mapData)}
+                        className="btn btn-xs btn-error btn-circle text-white"
+                      >
                         x
                       </button>
                     </div>
@@ -49,9 +59,10 @@ const Cart = ({ allCardsName, creditHrs, totalCreditHrs, totalPrice }) => {
   );
 };
 Cart.propTypes = {
-  allCardsName: PropTypes.array.isRequired,
+  mappedData: PropTypes.array.isRequired,
   creditHrs: PropTypes.number,
   totalCreditHrs: PropTypes.number.isRequired,
   totalPrice: PropTypes.number.isRequired,
+  handleRemove: PropTypes.func.isRequired,
 };
 export default Cart;
